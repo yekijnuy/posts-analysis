@@ -1,0 +1,60 @@
+# User-specific stuff:
+.idea/*
+
+# Servlerless stuff
+.serverless
+
+# CDK Stuff
+cdk.out
+
+# CMake
+cmake-build-debug/
+
+## File-based project format:
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+out/
+target/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+
+# node_modules in all projects
+**/node_modules/
+
+# distribution in all projects
+**/dist/
+
+# target folder in all projects
+**/target/
+
+# Reports from webpack etc...
+**/report.html
+
+*.iml
+.project
+.classpath
+.settings/
+
+# code coverage
+coverage/**
+
+debug.log
+.serverless/
+_optimize/
+.ni-optimized
+
+/front-end/coverage

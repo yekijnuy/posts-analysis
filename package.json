@@ -1,0 +1,25 @@
+{
+  "name": "cafemedia_code_challenge_pandas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:server": "cd server && node server.js",
+    "start:client": "cd client && npm start",
+    "test": "mocha --timeout 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jszip": "^3.7.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^9.1.3"
+  }
+}
