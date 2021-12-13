@@ -63,14 +63,21 @@ To get a local copy up and running follow these simple example steps.
 
 There is a `package.json` contained within the root directory and the `client` folder. In order to get the necessary packages, you will need to first install necessary dependencies.
 
-You will need to install python (https://www.python.org/downloads/) or conda (https://www.anaconda.com/products/individual) related dependencies to spawn child processes. This is beyond the scope of this README for detailed instructions. The following is a shell script to run for installing dependencies:
+You will need to install python (https://www.python.org/downloads/) or conda (https://www.anaconda.com/products/individual) related dependencies to spawn child processes. Generally, installing a python package and the extension for your chosen IDE should suffice. You could technically run .py related files within a conda environment of your choice or IDE (jupyter, spyder, etc.) in order to test if the functionality works. If so, then you should be good to go and the child processes will work. Additional details on what conda, python, or sub processing is beyond the scope of this README for detailed instructions.
 
--   npm
+The following is a shell script to run for installing dependencies in the root of your project:
+
+-   npm install on root directory
+    `sh npm install `
+    You will also need to change directories to the client and install dependencies as well:
+
+-   npm install on client directory
     ```sh
-    npm install npm@latest -g OR npm i
+    cd client
+    npm install
     ```
 
-### Getting Started
+### Let's Run It
 
 1. You will need to run multiple terminals (locally) to test
 2. In terminal 1, run the following command from your root directory:
